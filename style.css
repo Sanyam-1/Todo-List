@@ -4,12 +4,21 @@ body{
 #Todo_list_div{
     margin: auto;
     height: 40% !important;
-    width: 50% !important;
+    width: 35% !important;
     text-align: center;
     background-color: hsl(180, 5%, 15%);
     color: antiquewhite;
     border-radius: 20px;
     border: 3px solid skyblue;
+}
+@media screen and (max-width:900px) {
+ #Todo_list_div{
+    height: 40% !important;
+    width: 50% !important;
+ }   
+ #list{
+     padding: 10px;
+ }
 }
 #Todo_list{
     font-family: 'Grape Nuts', cursive;
